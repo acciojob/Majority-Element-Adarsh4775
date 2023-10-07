@@ -1,10 +1,10 @@
 //your code here
 function majorityElement(nums){
-	let majorityElement = nums[0];
+	let majorityElementt = nums[0];
 	let count = 1;
 	for(let i=1; i<nums.length; i++)
 		{
-			if(nums[i] === majorityElement)
+			if(nums[i] === majorityElementt)
 			{
 				count++;
 			}
@@ -14,10 +14,10 @@ function majorityElement(nums){
 			}
 			if(count === 0)
 			{
-				majorityElement = nums[i];
+				majorityElementt = nums[i];
 				count = 1;
 			}
 		
 }
-return majorityElement;
+return majorityElementt;
 }
