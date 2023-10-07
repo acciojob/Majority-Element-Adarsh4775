@@ -11,13 +11,13 @@ function majorityElement(nums){
 			else
 			{
 				count--;
-			
+			}
 			if(count === 0)
 			{
 				majorityElement = nums[i];
 				count = 1;
 			}
-		}
+		
 }
 return majorityElement;
 }
